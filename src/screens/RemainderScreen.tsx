@@ -28,7 +28,7 @@ const RemainderScreen: FC = () => {
   }
   return (
     <View style={{margin:40}}>
-      <Text>RemainderScreen </Text>
+      <Text>RemainderScreen Fetching Triggered Notifications </Text>
       <Button title='Display notification IDs' onPress={getTriggerNotificationIds} />
       <View style={{margin:20}}>
         <Button title='Show Saved Triggers' onPress={findNotes} />
